@@ -1,0 +1,301 @@
+/*----------navbar-----------*/
+.collapse{
+    
+    text-align: center;
+}
+header{
+    background-color: #3e4939;
+}
+.nav-link{
+    color: antiquewhite;
+    font-size: 14px;
+}
+/*---------navbar-end------------*/
+/*---------------------------------------------section 1---------------*/
+#s1{
+    background-image: url(assets/yoga_home10.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #f6efe7;
+    background-size: 40% auto;
+}
+.s1c1 h1{
+    font-size: 160px;
+    font-family: edensor;
+    color: #3e4939;
+}
+/*---------------------------------------------section 2---------------*/
+.s2c1{
+    text-align: center;
+    padding: 10%;
+}
+.s2c1 img{
+    width: 100px;
+    height: 100px;
+}
+#s2{
+    padding: 100px 0px 100px 0px;
+}
+/*---------------------------------------------section 3---------------*/
+
+#s3{
+    padding: 10%;
+    background-color: #f6efe7;
+    background-image: url(assets/yoga_home07.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 30% auto;
+}
+
+#s3 img{
+    width: 85%;
+    height: 100%;
+    border-radius: 50% 0px 0px 0px;
+}
+.s3c1{
+    padding-top: 6%;
+}
+.s3c1 h2{
+    font-size: 32px;
+    color:#3e4939
+}
+.s3c1 h6{
+    font-size: 18px;
+    color:#3e4939;
+    padding-top: 10px;
+}
+.s3c1 p{
+    font-size: 15px;
+    color:#3e4939;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.s3c2 a:link{
+    text-decoration: none;
+    color: #3e4939;
+    background-color:#3e493921;
+    padding: 10px;
+    margin: 20px 10px 20px 0px;
+}
+.s3c2 p{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+/*---------------section 4------------------*/
+.s4c1 h1{
+    font-size: 130px;
+    font-family: edensor;
+    color: #3e4939;
+    text-wrap: balance;
+}
+#s4 img{
+    width: 90%;
+    height: 80%;
+}
+#s4{
+    padding-top: 100px;
+}
+.s4c1 a:link{
+    text-decoration: none;
+    color: #3e4939;
+}
+/*--------------------section 5-------*/
+#s5{
+    padding-top: 40px;
+    color: #3e4939;
+}
+#s5 .row{
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.s5c2 h2{
+    font-size: 25px;
+}
+.s5c2 span{
+    padding-left: 10px;
+}
+.s5c5 a:link{
+    color: #3e4939;
+}
+.s5c5 a{
+    padding: 40px;
+}
+/*-----footer-----------*/
+footer ul li{
+    list-style-type: none;
+
+}
+footer{
+    padding-top: 90px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #3e4939;
+    color: white;
+    padding-bottom: 100px;
+    margin-top: 20px;
+}
+footer form input{
+    border: none;
+    width: 80%;
+    background-color: #3e4939;
+}
+footer form button{
+    border: none;
+    background-color: #3e4939;
+    color: white;
+    font-size: 20px;
+}
+footer form{
+    border-bottom: 2px solid white;
+    width: 80%;
+    background-color: #3e4939;
+}
+footer a:link{
+    text-decoration: none;
+    color: white;
+    background-color: #ffffff21;
+    padding: 7px;
+    margin: 4px;
+}
+
+/*-------------footer-end------------------*/
+
+@media only screen and (min-width:1440px){
+    footer h3{
+        padding-top: 50px;
+    }
+    .nav-item{
+        padding: 20px;
+    }
+    .s1c1 h1{
+        padding-left: 10%;
+        font-size: 140px;
+    }
+    .s4c1 h1{
+        font-size: 140px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1440px){
+    footer h3{
+        padding-top: 50px;
+    }
+    .nav-item{
+        padding: 20px;
+    }
+    
+    .s1c1 h1{
+        font-size: 130px;
+        padding-left: 10%;
+    }
+    .s4c1 h1{
+        font-size: 110px;
+    }
+ 
+}
+@media only screen and (min-width:992px) and (max-width:1024px){
+    .nav-item{
+        padding: 13px;
+    }
+    footer p{
+        padding-top: 20px;
+    }
+    footer h3{
+        padding-top: 50px;
+    }
+    .s1c1 h1{
+        font-size: 100px;
+        padding-left: 8%;
+    }
+    .s4c1 h1{
+        font-size: 90px;
+    }
+    
+}
+@media only screen and (min-width:767px) and (max-width:992px){
+    .s1c1 h1{
+        font-size: 70px;
+        padding-left: 5%;
+    }
+    .s4c1 h1{
+        font-size: 60px;
+    }
+    .s5c3{
+        padding-top: 15px;
+    }
+    .s5c4{
+        padding-top: 15px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width:768px){
+    .s1c1 h1{
+        font-size: 60px;
+        padding-left: 5%;
+    }
+    .s4c1 h1{
+        font-size: 50px;
+    }
+    .s5c1{
+        display:none;
+    }
+    .s5c3{
+        padding-top: 15px;
+    }
+    .s5c4{
+        padding-top: 15px;
+    }
+    #s5{
+        padding-left: 20px;
+    }
+    
+}
+@media only screen and (max-width:426px){
+    .s1c1 h1{
+        font-size: 50px;
+        text-wrap: balance;
+        padding-left: 5px;
+    }
+    .s4c1 h1{
+        font-size: 50px;
+    }
+    .s5c1{
+        display:none;
+    }
+    .s5c3{
+        padding-top: 15px;
+    }
+    .s5c4{
+        padding-top: 15px;
+    }
+    #s5{
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:992px){
+    .navbar{
+        background-color: #3e4939;
+    }
+    .nav-item{
+        border-bottom: 2px solid #ffffff21;
+    }
+    footer h3{
+        padding-top: 50px;
+    }
+    footer img{
+        padding-bottom: 40px;
+    }
+    footer p{
+        padding-top: 20px;
+    }
+    .footerc1{
+        text-align: center;
+    }
+}
+@media only screen and (min-width:1024px){
+    footer p{
+        padding-top: 20px;
+    }
+}
